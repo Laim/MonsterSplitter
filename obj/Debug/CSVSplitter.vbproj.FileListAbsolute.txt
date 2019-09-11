@@ -1,0 +1,10 @@
+C:\Users\McKenzieL\Documents\Development\GitHub\CSV Split\Source Code\bin\CSVSplitter.exe
+C:\Users\McKenzieL\Documents\Development\GitHub\CSV Split\Source Code\bin\CSVSplitter.pdb
+C:\Users\McKenzieL\Documents\Development\GitHub\CSV Split\Source Code\bin\CSVSplitter.xml
+C:\Users\McKenzieL\Documents\Development\GitHub\CSV Split\Source Code\obj\Debug\CSVSplitter.vbprojAssemblyReference.cache
+C:\Users\McKenzieL\Documents\Development\GitHub\CSV Split\Source Code\obj\Debug\CSVSplitter.Form1.resources
+C:\Users\McKenzieL\Documents\Development\GitHub\CSV Split\Source Code\obj\Debug\CSVSplitter.vbproj.GenerateResource.cache
+C:\Users\McKenzieL\Documents\Development\GitHub\CSV Split\Source Code\obj\Debug\CSVSplitter.vbproj.CoreCompileInputs.cache
+C:\Users\McKenzieL\Documents\Development\GitHub\CSV Split\Source Code\obj\Debug\CSVSplitter.exe
+C:\Users\McKenzieL\Documents\Development\GitHub\CSV Split\Source Code\obj\Debug\CSVSplitter.xml
+C:\Users\McKenzieL\Documents\Development\GitHub\CSV Split\Source Code\obj\Debug\CSVSplitter.pdb
