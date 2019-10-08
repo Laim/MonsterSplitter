@@ -1,0 +1,9 @@
+C:\Users\laim.mckenzie\Documents\GitHub\new_\MonsterSplitter.Data.SQLServer\bin\Debug\MonsterSplitter.Data.SQLServer.dll
+C:\Users\laim.mckenzie\Documents\GitHub\new_\MonsterSplitter.Data.SQLServer\bin\Debug\MonsterSplitter.Data.SQLServer.pdb
+C:\Users\laim.mckenzie\Documents\GitHub\new_\MonsterSplitter.Data.SQLServer\bin\Debug\MonsterSplitter.Data.SQLServer.xml
+C:\Users\laim.mckenzie\Documents\GitHub\new_\MonsterSplitter.Data.SQLServer\obj\Debug\MonsterSplitter.Data.SQLServer.Resources.resources
+C:\Users\laim.mckenzie\Documents\GitHub\new_\MonsterSplitter.Data.SQLServer\obj\Debug\MonsterSplitter.Data.SQLServer.vbproj.GenerateResource.cache
+C:\Users\laim.mckenzie\Documents\GitHub\new_\MonsterSplitter.Data.SQLServer\obj\Debug\MonsterSplitter.Data.SQLServer.vbproj.CoreCompileInputs.cache
+C:\Users\laim.mckenzie\Documents\GitHub\new_\MonsterSplitter.Data.SQLServer\obj\Debug\MonsterSplitter.Data.SQLServer.dll
+C:\Users\laim.mckenzie\Documents\GitHub\new_\MonsterSplitter.Data.SQLServer\obj\Debug\MonsterSplitter.Data.SQLServer.xml
+C:\Users\laim.mckenzie\Documents\GitHub\new_\MonsterSplitter.Data.SQLServer\obj\Debug\MonsterSplitter.Data.SQLServer.pdb
