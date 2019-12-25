@@ -96,11 +96,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MonsterSplitterDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Windows Forms\Form1.vb">
+    <Compile Include="Windows Forms\frmMain.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Windows Forms\Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Windows Forms\frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -132,8 +132,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Windows Forms\Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="Windows Forms\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -175,10 +175,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Database\MonsterSplitter.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Database\MonsterSplitter_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>MonsterSplitter.mdf</DependentUpon>
     </Content>
     <None Include="Resources\monstersplit_170.png" />

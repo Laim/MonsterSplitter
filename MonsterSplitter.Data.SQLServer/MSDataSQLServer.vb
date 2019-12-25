@@ -17,7 +17,6 @@ Public Class MSDataSQLServer
     End Function
 
     Public Shared Function SUID_Check(ByRef SID As String, ByRef ConnectionString As String)
-        Dim test As String
 
         Try
             Dim Connection As New SqlConnection(ConnectionString)
@@ -26,10 +25,31 @@ Public Class MSDataSQLServer
             Dim ConnectionCommand As New SqlCommand(TSQL, Connection)
             Dim SQLReader As SqlDataReader = ConnectionCommand.ExecuteReader()
             While SQLReader.Read()
-                Return SQLReader("SUID").ToString()
+                If SQLReader("SUID").ToString() = SID Then
+                    Return True
+                Else
+                    Return False
+                End If
             End While
             Connection.Close()
             Connection.Dispose()
+            ConnectionCommand.Dispose()
+        Catch ex As Exception
+            Return ex.ToString
+        End Try
+    End Function
+
+    Public Shared Function SUID_Create(ByRef SID As String, ByRef ConnectionString As String)
+        Try
+            Dim Connection As New SqlConnection(ConnectionString)
+            Dim TSQL As String = "INSERT INTO tblSystemUser (SUID) VALUES ('test636');"
+            Dim ConnectionCommand As New SqlCommand(TSQL, Connection)
+            Connection.Open()
+            ConnectionCommand.ExecuteNonQuery()
+            Connection.Close()
+            Connection.Dispose()
+            ConnectionCommand.Dispose()
+            Return True
         Catch ex As Exception
             Return ex.ToString
         End Try

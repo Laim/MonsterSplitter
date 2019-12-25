@@ -7,6 +7,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MonsterSplitter", "MonsterS
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MonsterSplitter.Data.SQLServer", "..\MonsterSplitter.Data.SQLServer\MonsterSplitter.Data.SQLServer.vbproj", "{7F7D94A2-5787-484A-BF82-BCB1E1B2017C}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MonsterSplitter.Updater", "..\MonsterSplitter.Updater\MonsterSplitter.Updater.vbproj", "{7E11E4B6-CE41-4BC9-AA97-39157EE8E5A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7F7D94A2-5787-484A-BF82-BCB1E1B2017C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F7D94A2-5787-484A-BF82-BCB1E1B2017C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F7D94A2-5787-484A-BF82-BCB1E1B2017C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E11E4B6-CE41-4BC9-AA97-39157EE8E5A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E11E4B6-CE41-4BC9-AA97-39157EE8E5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E11E4B6-CE41-4BC9-AA97-39157EE8E5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E11E4B6-CE41-4BC9-AA97-39157EE8E5A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
