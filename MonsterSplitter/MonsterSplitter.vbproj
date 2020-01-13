@@ -174,13 +174,6 @@
     <None Include="Resources\AboutInfoDoc.rtf" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Database\MonsterSplitter.mdf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Database\MonsterSplitter_log.ldf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <DependentUpon>MonsterSplitter.mdf</DependentUpon>
-    </Content>
     <None Include="Resources\monstersplit_170.png" />
     <None Include="Resources\split.png" />
   </ItemGroup>

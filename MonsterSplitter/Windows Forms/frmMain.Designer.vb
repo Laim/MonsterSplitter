@@ -49,10 +49,12 @@ Partial Class frmMain
         Me.tsDatabaseConnection = New System.Windows.Forms.ToolStripStatusLabel()
         Me.tsDatabaseConnectionType = New System.Windows.Forms.ToolStripStatusLabel()
         Me.cbCSVHeader = New System.Windows.Forms.CheckBox()
+        Me.MonsterSplitterDataSet1 = New MonsterSplitter.MonsterSplitterDataSet()
         Me.MenuStrip.SuspendLayout()
         CType(Me.nudLinesPerCSV, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DatabaseDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.StatusStrip1.SuspendLayout()
+        CType(Me.MonsterSplitterDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip
@@ -60,7 +62,7 @@ Partial Class frmMain
         Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AppToolStripMenuItem, Me.ViewToolStripMenuItem, Me.HelpToolStripMenuItem})
         Me.MenuStrip.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip.Name = "MenuStrip"
-        Me.MenuStrip.Size = New System.Drawing.Size(464, 24)
+        Me.MenuStrip.Size = New System.Drawing.Size(462, 24)
         Me.MenuStrip.TabIndex = 0
         Me.MenuStrip.Text = "MenuStrip1"
         '
@@ -74,30 +76,30 @@ Partial Class frmMain
         'AboutAppNameToolStripMenuItem
         '
         Me.AboutAppNameToolStripMenuItem.Name = "AboutAppNameToolStripMenuItem"
-        Me.AboutAppNameToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.AboutAppNameToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AboutAppNameToolStripMenuItem.Text = "About {AppName}"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(169, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(177, 6)
         '
         'PreferencesToolStripMenuItem
         '
         Me.PreferencesToolStripMenuItem.Enabled = False
         Me.PreferencesToolStripMenuItem.Name = "PreferencesToolStripMenuItem"
-        Me.PreferencesToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.PreferencesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PreferencesToolStripMenuItem.Text = "Preferences"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(169, 6)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(177, 6)
         '
         'QuitAppNameToolStripMenuItem
         '
         Me.QuitAppNameToolStripMenuItem.Name = "QuitAppNameToolStripMenuItem"
-        Me.QuitAppNameToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.QuitAppNameToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.QuitAppNameToolStripMenuItem.Text = "Quit {AppName}"
         '
         'ViewToolStripMenuItem
@@ -111,7 +113,7 @@ Partial Class frmMain
         'SplitHistoryToolStripMenuItem
         '
         Me.SplitHistoryToolStripMenuItem.Name = "SplitHistoryToolStripMenuItem"
-        Me.SplitHistoryToolStripMenuItem.Size = New System.Drawing.Size(138, 22)
+        Me.SplitHistoryToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SplitHistoryToolStripMenuItem.Text = "Split History"
         '
         'HelpToolStripMenuItem
@@ -123,6 +125,7 @@ Partial Class frmMain
         '
         'CheckForUpdatesToolStripMenuItem
         '
+        Me.CheckForUpdatesToolStripMenuItem.Enabled = False
         Me.CheckForUpdatesToolStripMenuItem.Name = "CheckForUpdatesToolStripMenuItem"
         Me.CheckForUpdatesToolStripMenuItem.Size = New System.Drawing.Size(216, 22)
         Me.CheckForUpdatesToolStripMenuItem.Text = "Check for Updates"
@@ -225,21 +228,25 @@ Partial Class frmMain
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsDatabaseConnection, Me.tsDatabaseConnectionType})
         Me.StatusStrip1.Location = New System.Drawing.Point(0, 227)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(464, 22)
+        Me.StatusStrip1.Size = New System.Drawing.Size(462, 22)
         Me.StatusStrip1.TabIndex = 10
         Me.StatusStrip1.Text = "StatusStrip1"
         '
         'tsDatabaseConnection
         '
+        Me.tsDatabaseConnection.Enabled = False
         Me.tsDatabaseConnection.Name = "tsDatabaseConnection"
         Me.tsDatabaseConnection.Size = New System.Drawing.Size(123, 17)
         Me.tsDatabaseConnection.Text = "Database Connection:"
+        Me.tsDatabaseConnection.Visible = False
         '
         'tsDatabaseConnectionType
         '
+        Me.tsDatabaseConnectionType.Enabled = False
         Me.tsDatabaseConnectionType.Name = "tsDatabaseConnectionType"
         Me.tsDatabaseConnectionType.Size = New System.Drawing.Size(40, 17)
         Me.tsDatabaseConnectionType.Text = "{Type}"
+        Me.tsDatabaseConnectionType.Visible = False
         '
         'cbCSVHeader
         '
@@ -251,11 +258,16 @@ Partial Class frmMain
         Me.cbCSVHeader.Text = "Include headers on every file"
         Me.cbCSVHeader.UseVisualStyleBackColor = True
         '
+        'MonsterSplitterDataSet1
+        '
+        Me.MonsterSplitterDataSet1.DataSetName = "MonsterSplitterDataSet"
+        Me.MonsterSplitterDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(464, 249)
+        Me.ClientSize = New System.Drawing.Size(462, 249)
         Me.Controls.Add(Me.cbCSVHeader)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.lbConsole)
@@ -278,6 +290,7 @@ Partial Class frmMain
         CType(Me.DatabaseDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.StatusStrip1.ResumeLayout(False)
         Me.StatusStrip1.PerformLayout()
+        CType(Me.MonsterSplitterDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -310,4 +323,5 @@ Partial Class frmMain
     Friend WithEvents tsDatabaseConnectionType As ToolStripStatusLabel
     Friend WithEvents SplitHistoryToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents cbCSVHeader As CheckBox
+    Friend WithEvents MonsterSplitterDataSet1 As MonsterSplitterDataSet
 End Class

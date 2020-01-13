@@ -2,6 +2,8 @@ C:\Users\laim.mckenzie\Documents\GitHub\MonsterSplitter\MonsterSplitter.Updater\
 C:\Users\laim.mckenzie\Documents\GitHub\MonsterSplitter\MonsterSplitter.Updater\bin\Debug\MonsterSplitter.Updater.exe
 C:\Users\laim.mckenzie\Documents\GitHub\MonsterSplitter\MonsterSplitter.Updater\bin\Debug\MonsterSplitter.Updater.pdb
 C:\Users\laim.mckenzie\Documents\GitHub\MonsterSplitter\MonsterSplitter.Updater\bin\Debug\MonsterSplitter.Updater.xml
+C:\Users\laim.mckenzie\Documents\GitHub\MonsterSplitter\MonsterSplitter.Updater\obj\Debug\MonsterSplitter.Updater.vbprojAssemblyReference.cache
+C:\Users\laim.mckenzie\Documents\GitHub\MonsterSplitter\MonsterSplitter.Updater\obj\Debug\MonsterSplitter.Updater.Form1.resources
 C:\Users\laim.mckenzie\Documents\GitHub\MonsterSplitter\MonsterSplitter.Updater\obj\Debug\MonsterSplitter.Updater.Resources.resources
 C:\Users\laim.mckenzie\Documents\GitHub\MonsterSplitter\MonsterSplitter.Updater\obj\Debug\MonsterSplitter.Updater.vbproj.GenerateResource.cache
 C:\Users\laim.mckenzie\Documents\GitHub\MonsterSplitter\MonsterSplitter.Updater\obj\Debug\MonsterSplitter.Updater.vbproj.CoreCompileInputs.cache
