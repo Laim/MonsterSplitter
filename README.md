@@ -1,4 +1,4 @@
-![MonsterSplitter](https://apps.laimmckenzie.com/monstersplitter/assets/logo.png)
+![MonsterSplitter](https://laimmckenzie.com/assets/github-images/logo.png)
 ---
 **MonsterSplitter** is a .NET Windows Application that allows you to split large [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files down into smaller more managable chunks.
 
