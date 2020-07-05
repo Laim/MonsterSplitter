@@ -2,7 +2,7 @@
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-.NET Windows Application that allows you to split large [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files down into smaller more managable chunks.
+.NET Windows Application that allows you to split large [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files down into smaller more managable chunks.  This application was created in 2019 for a very specific purpose and the code is capiable of being featured on /r/badcode.  It works, but it's not beautiful in anyway what so ever. 
 
 ---
 
